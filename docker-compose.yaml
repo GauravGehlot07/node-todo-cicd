@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: gauravgehlot/node-app-demo:latest
+    image: gauravgehlot/node-todo-cicd:latest
     ports:
       - "8000:8000"
