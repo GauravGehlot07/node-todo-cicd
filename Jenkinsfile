@@ -23,7 +23,7 @@ pipeline{
       stage("deploying to aws"){
         steps{
           sh "docker-compose down" 
-          sh "docker-compose up -d"
+          sh "docker-compose up -d --build"
         }
       }
     }
